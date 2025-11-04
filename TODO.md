@@ -1,25 +1,23 @@
-# TODO: Make Website Formal and Deploy to GitHub Pages
+# TODO: Make Website Clean and Less Boring
 
-## 1. Make Website More Formal
-- [ ] Update index.html: Remove "420-friendly" references, rephrase descriptions to be more professional
-- [ ] Update about.html: Remove or rephrase 420-friendly section, make language more formal
-- [ ] Update services.html: Remove 420-friendly service, keep color-coded houses but formalize description
-- [ ] Update resources.html: Ensure language is professional
-- [ ] Update contact.html: No changes needed, already formal
-- [ ] Update styles.css: Change colors to more professional palette (e.g., blues and grays instead of bright colors)
-- [ ] Update script.js: No changes needed
+## 1. Improve Design and Visual Appeal
+- [x] Update styles.css: Add Google Fonts (Roboto for body, Montserrat for headings), enhance color palette with subtle gradients (soft blues and greens), add smooth transitions and animations, improve spacing and layout for cleaner look
+- [x] Add Font Awesome CDN to all HTML files for icons
+- [x] Add Font Awesome icons to navigation menu items
+- [x] Add Font Awesome icons to feature cards in index.html
+- [x] Add Font Awesome icons to contact items in contact.html
+- [x] Enhance hero section with better background gradient and typography
+- [x] Improve feature cards with enhanced hover effects and shadows
+- [x] Add subtle animations (e.g., fade-in on scroll for sections)
 
-## 2. Deploy to GitHub Pages
-- [ ] Check if Git is initialized in the project
-- [ ] Check if GitHub CLI (gh) is installed
-- [ ] If not, install GitHub CLI
-- [ ] Create a new GitHub repository (public) named "LA-Wellness" or similar
-- [ ] Add all files to Git, commit
-- [ ] Push to GitHub
-- [ ] Enable GitHub Pages on the repository (set source to main branch)
-- [ ] Verify the site is live
+## 2. Enhance User Experience
+- [x] Update script.js: Add scroll-triggered animations using Intersection Observer
+- [x] Enhance form feedback in script.js (e.g., better success/error messages)
+- [x] Ensure responsive design is polished (check and adjust media queries if needed)
+- [x] Add loading animations or transitions between sections if applicable
 
 ## 3. Testing and Finalization
-- [ ] Test the site locally if possible
-- [ ] Confirm all changes are applied and site looks formal
-- [ ] Ensure GitHub Pages URL is accessible
+- [x] Test the site locally by opening index.html in browser (server running on port 8000)
+- [x] Verify the design looks clean and engaging while maintaining professionalism
+- [x] Check for any broken links or functionality (navigation, form)
+- [x] Confirm responsiveness on different screen sizes
